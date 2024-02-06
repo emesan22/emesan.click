@@ -21,3 +21,15 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary);
 }
+
+.main-content h2 {
+  padding-top: 1rem;
+  @apply text-4xl font-bold;
+}
+
+.main-content p {
+  @apply text-lg;
+  &:not(:first-child) {
+    padding: 0.5rem 0;
+  }
+}

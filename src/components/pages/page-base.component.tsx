@@ -9,9 +9,9 @@ export default function PageBase({
 }) {
   return (
     <article>
-      <div className="h-[5rem]"></div>
+      <div className="h-[5rem] xl:h-[2.5rem]"></div>
       <Title title={title} />
-      {children}
+      <div className="px-7 pt-3 xl:pl-44 text-xl main-content">{children}</div>
     </article>
   );
 }
